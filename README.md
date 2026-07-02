@@ -29,27 +29,6 @@ flowchart LR
 
 ---
 
-## Project status
-
-| Area | Status |
-|------|--------|
-| C++ stats (`ks_2samp`, `mann_whitney`, `cohen_d`) | **Implemented** |
-| pybind11 module `driftmap_core` | **Implemented** |
-| CMake + pip build | **Implemented** |
-| Reference tests (SciPy / NumPy) | **Implemented** |
-| Ring buffers, t-digest | Planned |
-| Probabilistic call graph types | Planned |
-| Trace buffer (sharded reconstruction) | Planned |
-| Diff engine (GED beam search, critical path) | Planned |
-| ClickHouse schema + materialized views | Planned |
-| Redpanda ingestion / aggregation | Planned |
-| FastAPI, CLI, LLM explainer | Planned |
-| Docker Compose stack | Planned |
-
-Phase 1 delivers the statistical foundation used later when comparing latency and error distributions per edge.
-
----
-
 ## Repository layout
 
 ```
